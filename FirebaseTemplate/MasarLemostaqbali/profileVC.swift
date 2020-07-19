@@ -9,28 +9,27 @@
 import UIKit
 
 class profileVC: UIViewController {
-    //var userInfo : User!
+    var userInfo : User!
     
     @IBOutlet weak var passwod: UILabel!
     @IBOutlet weak var email: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-//        Networking.getSingleDocument("users/\(Networking.getUserId()!)", success: { (useR: User) in
-//            self.userInfo = useR
-//            print(self.userInfo)
-//            self.nameLabel.text = self.userInfo.firstName
-//            self.email.text = self.userInfo.email
-//            
-//            
-//        }) { (err) in
-//            print(err)
-//        }
+        Networking.getSingleDocument("users/\(Networking.getUserId()!)", success: { (useR: User) in
+           self.userInfo = useR
+          print(self.userInfo)
+            self.nameLabel.text = self.userInfo.firstName
+         self.email.text = self.userInfo.email
+      }) { (error) in
+            print(error)
+        }
         
         
         
         // Do any additional setup after loading the view.
     }
+
     
 
     /*

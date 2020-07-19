@@ -744,7 +744,7 @@
             <objects>
                 <viewController id="1HB-XI-vog" customClass="SignInVC" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dQl-kt-B7H">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="page1" translatesAutoresizingMaskIntoConstraints="NO" id="5qa-b0-PMI">
@@ -801,7 +801,7 @@
             <objects>
                 <viewController id="tiq-2E-0nF" customClass="ViewController" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IQa-C7-XBm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="page1!!!!!!!" translatesAutoresizingMaskIntoConstraints="NO" id="gIS-Cp-8MO">
@@ -1109,7 +1109,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a7n-c4-Dq3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1013.0434782608696" y="2451.5625"/>
+            <point key="canvasLocation" x="-1012" y="2353"/>
         </scene>
         <!--ProfileVC-->
         <scene sceneID="3cI-MP-dgM">
@@ -1123,13 +1123,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تسجيل الخروج" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qM7-Vk-luR">
-                                <rect key="frame" x="130" y="741" width="154" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="tfH-MK-RIf">
                                 <rect key="frame" x="20" y="39" width="57" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1141,7 +1134,7 @@
                                     <segue destination="ml9-i7-0XH" kind="show" id="RL0-TG-nNV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6Q-mx-McM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6Q-mx-McM">
                                 <rect key="frame" x="81" y="354" width="246" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1162,10 +1155,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPH-cx-HD2">
-                                <rect key="frame" x="96" y="730" width="202" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fi5-M2-A7X">
+                                <rect key="frame" x="43" y="566" width="319" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
+                                <color key="backgroundColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="JSn-h1-yep"/>
@@ -1271,7 +1268,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="046-rH-qrU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="637.68115942028987" y="225.66964285714283"/>
+            <point key="canvasLocation" x="700" y="227"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RX1-xx-Wxf">
@@ -1801,7 +1798,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KCj-TL-WCn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1147.8260869565217" y="-504.24107142857139"/>
+            <point key="canvasLocation" x="1225" y="-492"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fvN-OW-hGb">
@@ -2266,7 +2263,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4d-GF-2Z0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1560.8695652173915" y="247.76785714285714"/>
+            <point key="canvasLocation" x="1519" y="226"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FOa-HP-2NY">
@@ -2526,7 +2523,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3aw-cg-fkZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="638" y="1050"/>
+            <point key="canvasLocation" x="699" y="969"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ANL-G2-bls">
@@ -2633,7 +2630,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W3w-Aj-WAT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1649" y="1050"/>
+            <point key="canvasLocation" x="1519" y="969"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Nya-XV-38j">
@@ -2712,7 +2709,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jy3-ID-DCf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="638" y="1861"/>
+            <point key="canvasLocation" x="699" y="1961"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bhr-ek-FaY">
@@ -4430,14 +4427,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CtF-lG-bCW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1488" y="3894"/>
+            <point key="canvasLocation" x="1487" y="3931"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eav-Si-3E9">
             <objects>
                 <viewController id="FmD-dh-wyq" customClass="ViewController" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jF5-dT-MkN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="page18" translatesAutoresizingMaskIntoConstraints="NO" id="3WW-Sf-Kwb">
@@ -4651,7 +4648,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LK4-FX-Jy1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2640.579710144928" y="1050"/>
+            <point key="canvasLocation" x="3233" y="892"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oG6-e3-eVN">
@@ -5260,13 +5257,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="هل نسيت كلمة السر؟ اضغط هنا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3h-xL-PJb">
-                                <rect key="frame" x="117" y="631" width="203" height="15"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aNe-cp-01f">
                                 <rect key="frame" x="87" y="440" width="241" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5447,7 +5437,7 @@
             <objects>
                 <viewController id="JVs-BC-d6n" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YkY-kK-7ub">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1746"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rT4-dz-mwg">
@@ -5826,7 +5816,7 @@
             <objects>
                 <viewController id="21g-hk-Kys" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FlV-Le-mIX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="page18" translatesAutoresizingMaskIntoConstraints="NO" id="crx-8V-wXh">
@@ -5915,7 +5905,7 @@
             <objects>
                 <viewController id="tFB-nw-yE0" customClass="ViewController" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FMe-PC-Njz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="page8" translatesAutoresizingMaskIntoConstraints="NO" id="mvw-OO-jyq">
@@ -6002,27 +5992,27 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xz9-5M-YGw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1560.8695652173915" y="2512.5"/>
+            <point key="canvasLocation" x="1561" y="2510"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="gsQ-u5-g1m"/>
         <segue reference="qzk-fV-PoU"/>
-        <segue reference="i5M-dG-Xfe"/>
-        <segue reference="WKh-TS-i3M"/>
+        <segue reference="jJS-I5-LYM"/>
+        <segue reference="AN2-bX-49g"/>
         <segue reference="XtM-iI-Yjz"/>
         <segue reference="sZH-ZM-LeE"/>
-        <segue reference="cIi-1Q-kDc"/>
+        <segue reference="a1e-CC-v1P"/>
         <segue reference="by8-5Q-DsH"/>
-        <segue reference="626-cX-A10"/>
+        <segue reference="h8k-AL-g4S"/>
         <segue reference="Dbm-vS-UjX"/>
         <segue reference="rLb-wc-aP9"/>
         <segue reference="naD-JH-0Va"/>
         <segue reference="ch7-7S-lih"/>
         <segue reference="k0Q-E1-yr3"/>
-        <segue reference="KvJ-d9-RWv"/>
-        <segue reference="xa0-09-rX4"/>
-        <segue reference="a4G-cM-abS"/>
+        <segue reference="RL0-TG-nNV"/>
+        <segue reference="aTd-m9-Y2N"/>
+        <segue reference="LhH-zT-Nvm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1" width="1125" height="1765"/>
